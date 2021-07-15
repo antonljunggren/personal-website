@@ -28,7 +28,7 @@ jobs:
     - run: npm run build --prod --if-present
       
     - name: Deploy with FTP
-      uses: Atyn/Simple-SFTP@0.0.2
+      uses: Atyn/Simple-SFTP@latest
       with:
         url: sftp://${{ secrets.ftp_usr }}:${{ secrets.ftp_passwd }}@${{ secrets.ftp_url }}
         local-directory: ./build
