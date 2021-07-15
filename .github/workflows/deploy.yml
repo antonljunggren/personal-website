@@ -28,18 +28,10 @@ jobs:
     - run: npm run build --prod --if-present
       
     - name: Deploy with FTP
-      uses: Atyn/Simple-SFTP@latest
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        url: sftp://${{ secrets.ftp_usr }}:${{ secrets.ftp_passwd }}@${{ secrets.ftp_url }}
-        local-directory: ./build
-      #uses: SamKirkland/FTP-Deploy-Action@4.1.0
-     # with:
-      #  server: ${{ secrets.ftp_url }}
-     #   username: ${{ secrets.ftp_usr }}
-     #   password: ${{ secrets.ftp_passwd }}
-     #   port: 22
-     #   protocol: ftps
-     #   local-dir: ./build/
-     #   server-dir: beta/
-     #   security: loose
-   
+        server: ${{ secrets.ftp_url }}
+        username: ${{ secrets.ftp_usr }}
+        password: ${{ secrets.ftp_passwd }}
+        local-dir: ./build/
+        server-dir: beta/
