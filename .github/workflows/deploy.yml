@@ -37,4 +37,5 @@ jobs:
         protocol: ftps
         local-dir: ./build/
         server-dir: beta/
+        security: loose
    
