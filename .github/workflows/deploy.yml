@@ -25,14 +25,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Install dependencies
-      run: npm install
-      
-    - name: Run tests
-      run: npm test
-      
-    - name: Build Prod
-      run: npm run build --prod --if-present
+
+    - run: npm install
+    - run: npm test  
+    - run: npm run build --prod --if-present
       
     - name: Deploy with FTP
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
