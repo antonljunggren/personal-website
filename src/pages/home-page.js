@@ -72,7 +72,7 @@ const HomePage = () => {
         <h1>{store.localize.myProjects}</h1>
         <h2>{store.localize.kulturjakten}</h2>
         <div className='kjakt'>
-          <img src='./img/kulturjakten.png' />
+          <img src='./img/kulturjakten.png' alt='Screenshot of kulturjakten app' />
           <p>{store.localize.kulturjaktenText}</p>
         </div>
       </div>
