@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { DataContext } from '../components/store';
 import { IoArrowDownCircleOutline as HintArrowIcon } from 'react-icons/io5';
+import { FcReading as ReadingIcon, FcDataConfiguration as BackendIcon } from 'react-icons/fc';
+import { AiFillCode as CodeIcon } from 'react-icons/ai';
 
 const HomePage = () => {
   const { store } = useContext(DataContext);
@@ -30,7 +32,52 @@ const HomePage = () => {
       </div>
       <div id='about' className='about center-text'>
         <h1>{store.localize.about}</h1>
-        <p>{store.localize.aboutText}</p>
+        <p className='text-content'>{store.localize.aboutText}</p>
+      </div>
+      <div id='skills' className='skills center-text'>
+        <h1>{store.localize.mainSkills}</h1>
+        <div className='skills-container'>
+          <div className='skills-card'>
+            <ReadingIcon size='50' />
+            <p>{store.localize.learningSkills}</p>
+          </div>
+
+          <div className='skills-card'>
+            <BackendIcon size='50' />
+            <p>{store.localize.backendSkills}</p>
+          </div>
+
+          <div className='skills-card'>
+            <CodeIcon size='50' />
+            <p>{store.localize.csharpSkills}</p>
+          </div>
+
+          <div className='skills-card'>
+            <ReadingIcon size='50' />
+            <p>{store.localize.learningSkills}</p>
+          </div>
+
+          <div className='skills-card'>
+            <BackendIcon size='50' />
+            <p>{store.localize.backendSkills}</p>
+          </div>
+
+          <div className='skills-card'>
+            <CodeIcon size='50' />
+            <p>{store.localize.csharpSkills}</p>
+          </div>
+        </div>
+      </div>
+      <div id='my-projects' className='my-projects center-text'>
+        <h1>{store.localize.myProjects}</h1>
+        <h2>{store.localize.kulturjakten}</h2>
+        <div className='kjakt'>
+          <img src='./img/kulturjakten.png' />
+          <p>{store.localize.kulturjaktenText}</p>
+        </div>
+      </div>
+      <div className='footer'>
+        <small>Copyright © Anton Ljunggren - 2021</small>
       </div>
     </div>
   );
