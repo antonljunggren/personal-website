@@ -35,3 +35,4 @@ jobs:
         password: ${{ secrets.ftp_passwd }}
         local-dir: ./build/
         server-dir: /beta/
+        dangerous-clean-slate: true
