@@ -61,8 +61,8 @@ body {
 .language-list {
   position: fixed;
   bottom: $navbar-height;
-  height: auto;
-  max-width: 30vw;
+  height: max-content;
+  max-width: 50vw;
   right: 0;
   padding-bottom: 10px;
   background-color: rgb(199, 199, 199);
@@ -72,6 +72,7 @@ body {
   background-color: rgb(199, 199, 199);
   border: none;
   margin: 5px;
+  min-height: 2rem;
 }
 
 .flex {
@@ -272,6 +273,12 @@ body {
 
   .language-list {
     top: $navbar-height;
+    max-width: 17vw;
+    height: fit-content;
+  }
+
+  .language-list button {
+    min-height: 4rem;
   }
 
   @keyframes MoveUpDown {

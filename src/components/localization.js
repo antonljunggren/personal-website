@@ -15,8 +15,10 @@ const Localize = new LocalizedStrings({
     cv: 'CV',
 
     mainSkills: 'Main skills',
-    learningSkills: 'I am good and fast at learning new things. I want to constantly improve but also understand the importance of immersing myself.',
-    backendSkills: 'Backend development is the part that I feel most confident about. Where I have used MySQL, PHP & .NET Core, among other things.',
+    learningSkills:
+      'I am good and fast at learning new things. I want to constantly improve but also understand the importance of immersing myself in the details.',
+    backendSkills:
+      'Backend development is the part that I feel most confident about. Where I have used SQL, Java, .NET & ASP Classic, among other things.',
     csharpSkills: 'C# is the language I have the most knowledge in as it is the language that I first started with.',
 
     myProjects: 'My Projects',
@@ -60,8 +62,9 @@ const Localize = new LocalizedStrings({
     cv: 'CV',
 
     mainSkills: 'Främsta kompetenser',
-    learningSkills: 'Jag är bra och snabb på att lära mig nya saker. Jag vill ständigt förbättras men förstår även vikten av att fördjupa sig.',
-    backendSkills: 'Backend utveckling är den del som jag känner mig mest säker på. Där jag bland annat har använt MySQL, PHP & .NET Core.',
+    learningSkills:
+      'Jag är bra och snabb på att lära mig nya saker. Jag vill ständigt förbättras men förstår även vikten av att fördjupa sig i detaljerna.',
+    backendSkills: 'Backend utveckling är den del som jag känner mig mest säker på. Där jag bland annat har använt SQL, Java, .NET & ASP Classic.',
     csharpSkills: 'C# är det språk som jag har mest kompetens inom då det är de språk jag började med tidigt.',
 
     myProjects: 'Mina projekt',
