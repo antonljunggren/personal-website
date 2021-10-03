@@ -14,12 +14,22 @@ const Localize = new LocalizedStrings({
     itConsultant: 'IT Consultant',
     cv: 'CV',
 
-    mainSkills: 'Main skills',
+    mainSkills: 'Main skills & experience',
     learningSkills:
       'I am good and fast at learning new things. I want to constantly improve but also understand the importance of immersing myself in the details.',
     backendSkills:
       'Backend development is the part that I feel most confident about. Where I have used SQL, Java, .NET & ASP Classic, among other things.',
     csharpSkills: 'C# is the language I have the most knowledge in as it is the language that I first started with.',
+    xamarinExperience:
+      'I helped develop a mobile communication app for people with hearing, vision and speech disability. \nUsing Xamarin and C# .NET.' +
+      '\n The app is already in production and used by people all around the world.',
+    crmExperience:
+      'From almost the ground up, I helped develop a CRM (Customer Relations Management) system. ' +
+      '\n The system is built using .NET, C#, Entity Framework and React. ' +
+      '\n The system is going to be used by hundreads of sales personel managing relations to thousands customers.',
+    reinsuranceExperience:
+      'I help manage and improve a reinsurance system for a major european insurance group and an American multinational insurance group.' +
+      '\n Both systems have been in use for a long period of time.',
 
     myProjects: 'My Projects',
     kulturjakten: 'Kulturjakten (Culture-hunt) - Gästrikland',
@@ -61,11 +71,21 @@ const Localize = new LocalizedStrings({
     itConsultant: 'IT Konsult',
     cv: 'CV',
 
-    mainSkills: 'Främsta kompetenser',
+    mainSkills: 'Främsta kompetenser & erfarenheter',
     learningSkills:
       'Jag är bra och snabb på att lära mig nya saker. Jag vill ständigt förbättras men förstår även vikten av att fördjupa sig i detaljerna.',
     backendSkills: 'Backend utveckling är den del som jag känner mig mest säker på. Där jag bland annat har använt SQL, Java, .NET & ASP Classic.',
     csharpSkills: 'C# är det språk som jag har mest kompetens inom då det är de språk jag började med tidigt.',
+    xamarinExperience:
+      'Jag har varit med och utvecklat en kommunikations app för de med syn, tal och hörsel svårigheter. \n Med Xamarin oc C# .NET.' +
+      '\n Appen är redan i produktion och används av människor världen runt.',
+    crmExperience:
+      'Nästan från dess början var jag med och utvecklade ett CRM (Customer Relations Management) system.' +
+      '\n Systemet byggdes med .NET, C#, Entity Framework och React. ' +
+      '\n Systemet kommer att användas av hundratals säljpersonal för att hantera relationer med tusentals kunder.',
+    reinsuranceExperience:
+      'Jag har hjälp till och förvalta samt vidareutveckla ett återförsäkringssystem, för en stor europeisk försäkringsconcern och en amerikansk multinationell försäkringsgrupp.' +
+      '\n Båda systemen har används över en lång tid.',
 
     myProjects: 'Mina projekt',
     kulturjakten: 'Kulturjakten Gästrikland',

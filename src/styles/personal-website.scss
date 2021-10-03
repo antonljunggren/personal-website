@@ -227,6 +227,30 @@ body {
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
+#peopleIcon {
+  transform: translate(-80%, 0);
+}
+
+#chartIcon {
+  transform: translate(70%, -60%);
+}
+
+#cogIcon {
+  transform: translate(50%, -60%);
+}
+
+#umbrellaIcon {
+  transform: translate(70%, -33%) rotate(15deg);
+}
+
+#paperIcon {
+  transform: translate(-20%, 0);
+}
+
+#currencyIcon {
+  transform: translate(-155%, -10%);
+}
+
 // My Projects
 .my-projects {
   margin: 5rem 15vw 0;
@@ -242,7 +266,7 @@ body {
 .kjakt p {
   margin-top: 1rem;
   white-space: pre-line;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: left;
 }
 
@@ -265,7 +289,7 @@ body {
 .text-content {
   margin-top: 1rem;
   white-space: pre-line;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 960px) {
@@ -330,7 +354,7 @@ body {
 
   .kjakt p {
     white-space: pre-line;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: left;
   }
 
