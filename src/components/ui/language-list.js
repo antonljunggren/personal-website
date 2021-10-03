@@ -13,6 +13,7 @@ export const LanguageList = ({ closeCallback }) => {
   const changeLang = (newLang) => {
     switch (newLang) {
       case 'sv':
+        window.sessionStorage.setItem('lang', 'sv');
         store.localize.setLanguage('sv');
         dispatch({
           type: 'SET_LANGUAGE',
@@ -21,6 +22,7 @@ export const LanguageList = ({ closeCallback }) => {
         setLang('sv');
         break;
       case 'en':
+        window.sessionStorage.setItem('lang', 'en');
         store.localize.setLanguage('en');
         dispatch({
           type: 'SET_LANGUAGE',

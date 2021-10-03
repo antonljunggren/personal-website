@@ -1,8 +1,18 @@
 import { createContext } from 'react';
 import Localize from './localization';
 
+const GenerateLocalizer = () => {
+  const langPref = window.sessionStorage.getItem('lang');
+
+  if (langPref !== null && langPref !== '') {
+    Localize.setLanguage(langPref);
+  }
+
+  return Localize;
+};
+
 export const initialState = {
-  localize: Localize,
+  localize: GenerateLocalizer(),
 };
 
 export const reducer = (state, action) => {
