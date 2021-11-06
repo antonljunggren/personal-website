@@ -27,9 +27,6 @@ const NavMenu = ({ mobile, page }) => {
               <A href='/'>{store.localize.home}</A>
             </li>
             <li className=''>
-              <A href='/cv'>{store.localize.cv}</A>
-            </li>
-            <li className=''>
               <A href='/projects'>{store.localize.projects}</A>
             </li>
             <li className='navbar-item'>
@@ -52,10 +49,6 @@ const NavMenu = ({ mobile, page }) => {
         <A href='/'>
           <HouseIcon size={normalIconSize} />
           <span>{store.localize.home}</span>
-        </A>
-        <A href='/cv'>
-          <CvIcon size={normalIconSize} />
-          <span>{store.localize.cv}</span>
         </A>
         <A href='/projects'>
           <div>
