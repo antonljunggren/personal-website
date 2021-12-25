@@ -5,7 +5,7 @@ import { DataContext } from './store';
 
 import {
   IoHomeOutline as HouseIcon,
-  IoNewspaperOutline as CvIcon,
+  //IoNewspaperOutline as CvIcon,
   IoLaptopOutline as ProjectIcon,
   IoCodeSlashOutline as CodeIcon,
   IoLanguageOutline as LanguageIcon,
