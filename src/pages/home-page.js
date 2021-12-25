@@ -35,14 +35,13 @@ const HomePage = () => {
           <h4>
             {store.localize.computerEngineer} & {store.localize.itConsultant}
           </h4>
+          <div id='about' className='about center-text'>
+            <p className='text-content'>{store.localize.aboutText}</p>
+          </div>
           <div id='scrollHint' className={showScrollHint ? 'hint-arrow active' : 'hint-arrow'}>
             <HintArrowIcon size='50' />
           </div>
         </div>
-      </div>
-      <div id='about' className='about center-text'>
-        <h1>{store.localize.about}</h1>
-        <p className='text-content'>{store.localize.aboutText}</p>
       </div>
       <div id='skills' className='skills center-text'>
         <h1>{store.localize.mainSkills}</h1>
